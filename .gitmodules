@@ -1,0 +1,3 @@
+[submodule "Assets/lockstepcore"]
+	path = Assets/lockstepcore
+	url = https://github.com/Timorkong/lockstepcore.git
