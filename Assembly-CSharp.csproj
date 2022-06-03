@@ -84,9 +84,9 @@
     <Compile Include="Assets/lockstepcore/Util/DontDestory.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/FrameSync/Battle/Dungeon/Logic/BeDungeon.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/FrameSync/Battle/Dungeon/View/FollowPlayer.cs" />
-    <Compile Include="Assets/lockstepcore/Window/Loading.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/GlobalLogic.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/Buffer/NetOutputBuffer.cs" />
+    <Compile Include="Assets/lockstepcore/Window/Loading.cs" />
     <Compile Include="Assets/lockstepcore/Protobuf/Proto/command_protocol_room.cs" />
     <Compile Include="Assets/test/AdressTest.cs" />
     <Compile Include="Assets/lockstepcore/Math/FixedVec3.cs" />
@@ -126,9 +126,9 @@
     <Compile Include="Assets/lockstepcore/LockStep/FrameSync/Battle/Dungeon/View/GeEntity.cs" />
     <Compile Include="Assets/lockstepcore/Protobuf/Proto/command_protocol_common.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/ClientSystem/ClientSystemTown.cs" />
+    <Compile Include="Assets/lockstepcore/Enum/EnumID.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/FrameSync/command/FrameCommandFactory.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/GloableLogic.cs" />
-    <Compile Include="Assets/lockstepcore/Enum/EnumID.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/Buffer/RWBuffer.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/Buffer/IRead.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/EventRuter.cs" />
@@ -137,7 +137,6 @@
     <Compile Include="Assets/lockstepcore/Math/FixedNumber.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/GlobalSetting.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/Buffer/PackBuffer.cs" />
-    <Compile Include="Assets/lockstepcore/Level/LevelManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/License.txt" />
@@ -776,6 +775,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ParadoxNotion.csproj">
+      <Project>{A77450DC-422A-BFFD-2954-55C1368AAAA9}</Project>
+      <Name>ParadoxNotion</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
