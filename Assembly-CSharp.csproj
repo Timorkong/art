@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -112,6 +112,7 @@
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/NetUtil.cs" />
     <Compile Include="Assets/lockstepcore/GameBindSystem.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/RSP/command_rsp.cs" />
+    <Compile Include="Assets/test/NewBehaviourScript.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/FrameSync/Battle/PVEBattle.cs" />
     <Compile Include="Assets/lockstepcore/Protobuf/Proto/command_id.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/FrameSync/FrameSync.cs" />
@@ -137,6 +138,10 @@
     <Compile Include="Assets/lockstepcore/Math/FixedNumber.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/GlobalSetting.cs" />
     <Compile Include="Assets/lockstepcore/LockStep/NetWork/Buffer/PackBuffer.cs" />
+    <Compile Include="Assets/lockstepcore/PathFinder/MathExtra.cs" />
+    <Compile Include="Assets/lockstepcore/PathFinder/PathFinder.cs" />
+    <Compile Include="Assets/lockstepcore/PathFinder/MaxHeap.cs" />
+    <Compile Include="Assets/lockstepcore/PathFinder/AStar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Assets_DevilsWorkShop/Low_Poly_Pixel_2D_Blocks_DevilsWorkShop_v04/License.txt" />
